@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>San valentin</title>
+    <title>San Valentín</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
             <div class="heart-container" id="heart-btn">
                 <div class="heart-unicode">💘</div>
             </div>
-            <h1 class="title">San Valentin</h1>
+            <h1 class="title">San Valentín</h1>
         </div>
 
         <div id="letter-screen" class="hidden">
@@ -21,21 +21,13 @@
                     <p class="greeting">Para el amor de mi vida:</p>
                     <p id="typewriter-text"></p>
                     <div class="timer-section">
-                        <p class="timer-label">Mi amor por ti comenzó hace...</p>
+                        <p class="timer-label">Mi amor por ti comenzó en el propedeutico hace...</p>
                         <div id="timer">Calculando...</div>
                     </div>
                 </div>
 
-                <div class="tree-section">
-                    <div class="trunk" id="trunk">
-                        <div class="trunk-shape"></div>
-
-                            <div class="branch branch-left-1"></div>
-                            <div class="branch branch-right-1"></div>
-                            <div class="branch branch-left-2"></div>
-                            <div class="branch branch-right-2"></div>
-                    </div>
-                    <div class="leaves-container" id="leaves-container"></div>
+                <div class="tree-section" id="tree-container">
+                    <canvas id="treeCanvas"></canvas>
                 </div>
             </div>
         </div>
